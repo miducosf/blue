@@ -1,12 +1,12 @@
 /* Custom styles */
 .nav-link {
-    @apply text-gray-600 hover:text-emerald-600 font-medium 
+    @apply text-gray-600 hover:text-sky-600 font-medium 
            transition-colors duration-300 relative;
 }
 
 .nav-link::after {
     content: '';
-    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 
            transition-all duration-300;
 }
 
@@ -124,17 +124,17 @@ section h2 {
     --primary-green: #10B981;
     --dark-green: #059669;
     --light-green: #D1FAE5;
-    --emerald: #34D399;
+    --sky: #34D399;
 }
 
 /* Hero Section Gradient */
 .hero-gradient {
-    @apply bg-gradient-to-br from-green-50 to-emerald-50;
+    @apply bg-gradient-to-br from-green-50 to-sky-50;
 }
 
 /* Profile Photo Border */
 .profile-border {
-    @apply border-4 border-emerald-500 shadow-xl;
+    @apply border-4 border-sky-500 shadow-xl;
 }
 
 /* Name Gradient */
@@ -146,13 +146,13 @@ section h2 {
 
 /* Social Icons */
 .social-icon-link {
-    @apply text-gray-600 hover:text-emerald-600 transition-colors duration-300;
+    @apply text-gray-600 hover:text-sky-600 transition-colors duration-300;
     font-size: 1.5rem;
 }
 
 /* Download Button */
 .download-btn {
-    @apply inline-block bg-gradient-to-r from-emerald-600 to-green-500 text-white px-8 py-3 rounded-full 
+    @apply inline-block bg-gradient-to-r from-sky-600 to-green-500 text-white px-8 py-3 rounded-full 
     hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200;
 }
 
@@ -201,7 +201,7 @@ section h2 {
 
 /* Links */
 .text-accent {
-    @apply text-emerald-600 hover:text-emerald-700;
+    @apply text-sky-600 hover:text-sky-700;
 }
 
 /* Common background patterns and overlays */
@@ -308,12 +308,12 @@ section {
 }
 
 .social-link {
-    @apply w-12 h-12 rounded-full flex items-center justify-center text-emerald-600 hover:text-white hover:bg-emerald-600 transition-all duration-300 border-2 border-emerald-600;
+    @apply w-12 h-12 rounded-full flex items-center justify-center text-sky-600 hover:text-white hover:bg-sky-600 transition-all duration-300 border-2 border-sky-600;
 }
 
 /* Glass effect for cards */
 .glass-card {
-    @apply bg-white/80 backdrop-blur-lg rounded-lg shadow-lg border border-emerald-100 hover:border-emerald-300 transition-all duration-300 hover:transform hover:scale-105;
+    @apply bg-white/80 backdrop-blur-lg rounded-lg shadow-lg border border-sky-100 hover:border-sky-300 transition-all duration-300 hover:transform hover:scale-105;
 }
 
 /* Enhanced Section Headers */
@@ -371,7 +371,7 @@ section {
 
 /* Project Card Styles */
 .project-title {
-    @apply text-2xl font-bold text-emerald-800 mb-4 text-center;
+    @apply text-2xl font-bold text-sky-800 mb-4 text-center;
 }
 
 .tech-stack {
@@ -386,20 +386,20 @@ section {
     @apply flex items-center;
     &:before {
         content: "•";
-        @apply text-emerald-500 mr-2 text-xl;
+        @apply text-sky-500 mr-2 text-xl;
     }
 }
 
 .view-project {
-    @apply inline-flex items-center px-4 py-2 bg-emerald-600 text-white rounded-lg
-    hover:bg-emerald-700 transition-all duration-300 shadow-md
+    @apply inline-flex items-center px-4 py-2 bg-sky-600 text-white rounded-lg
+    hover:bg-sky-700 transition-all duration-300 shadow-md
     hover:shadow-lg transform hover:-translate-y-0.5 mt-4 w-full justify-center;
 }
 
 /* Glass Card Enhancement */
 .glass-card {
-    @apply bg-white/80 backdrop-blur-lg rounded-lg shadow-lg border border-emerald-100 
-    hover:border-emerald-300 transition-all duration-300 hover:transform hover:scale-105;
+    @apply bg-white/80 backdrop-blur-lg rounded-lg shadow-lg border border-sky-100 
+    hover:border-sky-300 transition-all duration-300 hover:transform hover:scale-105;
 }
 
 /* Mega Section Headers */
@@ -509,8 +509,8 @@ section {
 
 /* Enhanced Glass Card for Timeline */
 .glass-card {
-    @apply bg-white/90 backdrop-blur-lg rounded-lg shadow-lg border border-emerald-100 
-    hover:border-emerald-300 transition-all duration-300;
+    @apply bg-white/90 backdrop-blur-lg rounded-lg shadow-lg border border-sky-100 
+    hover:border-sky-300 transition-all duration-300;
 }
 
 .glass-card:hover {
@@ -542,7 +542,7 @@ section {
 
 .link-button {
     @apply inline-flex items-center justify-center px-4 py-2 
-           bg-emerald-500 hover:bg-emerald-600 
+           bg-sky-500 hover:bg-sky-600 
            text-white font-medium rounded-lg
            transition-all duration-300 
            transform hover:-translate-y-0.5
@@ -727,13 +727,13 @@ a.link-button[target="_blank"]:hover {
 
 /* Add this at the top of your CSS file */
 body {
-    background-color: #f0fdf4;  /* Lightest emerald shade */
+    background-color: #f0fdf4;  /* Lightest sky shade */
     /* Alternative ultra-light gradient background */
     background: linear-gradient(
         to bottom right,
-        #f0fdf4,  /* Lightest emerald */
-        #ecfdf5,  /* Very light emerald */
-        #f0fdf4   /* Back to lightest emerald */
+        #f0fdf4,  /* Lightest sky */
+        #ecfdf5,  /* Very light sky */
+        #f0fdf4   /* Back to lightest sky */
     );
     min-height: 100vh;  /* Ensure gradient covers full viewport height */
 }
@@ -755,11 +755,11 @@ body::before {
 :root {
     --bg-primary: #f0fdf4;
     --bg-secondary: #ecfdf5;
-    --emerald-50: #f0fdf4;
-    --emerald-100: #dcfce7;
-    --emerald-200: #bbf7d0;
-    --emerald-500: #10b981;
-    --emerald-600: #059669;
+    --sky-50: #f0fdf4;
+    --sky-100: #dcfce7;
+    --sky-200: #bbf7d0;
+    --sky-500: #10b981;
+    --sky-600: #059669;
 }
 
 /* Extra small device adjustments (below 418px) */
