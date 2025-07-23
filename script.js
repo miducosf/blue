@@ -55,9 +55,9 @@ window.addEventListener('scroll', () => {
     });
 
     navLinks.forEach(link => {
-        link.classList.remove('text-emerald-600');
+        link.classList.remove('text-sky-600');
         if (link.getAttribute('href').slice(1) === current) {
-            link.classList.add('text-emerald-600');
+            link.classList.add('text-sky-600');
         }
     });
 });
