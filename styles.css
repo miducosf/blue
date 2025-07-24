@@ -112,12 +112,12 @@ section h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #059669, #10B981);
+    background: linear-gradient(to bottom, #059669, #0EA5E9);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #047857, #059669);
+    background: linear-gradient(to bottom, #0369A1, #059669);
 }
 
 :root {
@@ -164,14 +164,14 @@ section h2 {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    background: linear-gradient(to bottom right, #ffffff, #D1FAE5);
+    background: linear-gradient(to bottom right, #ffffff, #E0F2FE);
     border-color: #34D399;
 }
 
 /* Section Headers */
 section h2 {
     @apply text-3xl font-bold text-center mb-12;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     -webkit-background-clip: text;
     color: transparent;
     animation: gradient 3s ease infinite;
@@ -180,12 +180,12 @@ section h2 {
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #059669, #10B981);
+    background: linear-gradient(to bottom, #059669, #0EA5E9);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #047857, #059669);
+    background: linear-gradient(to bottom, #0369A1, #059669);
 }
 
 /* Project Cards */
@@ -319,7 +319,7 @@ section {
 /* Enhanced Section Headers */
 .section-title {
     @apply text-4xl font-bold text-center mb-16 relative;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -332,7 +332,7 @@ section {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     border-radius: 2px;
 }
 
@@ -351,7 +351,7 @@ section {
 /* Enhanced Section Titles */
 .mega-title {
     @apply text-6xl font-bold text-center mb-20;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     -webkit-background-clip: text;
     color: transparent;
     position: relative;
@@ -365,7 +365,7 @@ section {
     transform: translateX(-50%);
     width: 150px;
     height: 6px;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     border-radius: 3px;
 }
 
@@ -385,7 +385,7 @@ section {
 .feature-list li {
     @apply flex items-center;
     &:before {
-        content: "•";
+        content: "â€¢";
         @apply text-sky-500 mr-2 text-xl;
     }
 }
@@ -405,7 +405,7 @@ section {
 /* Mega Section Headers */
 .section-heading {
     @apply text-6xl font-bold text-center mb-20;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     -webkit-background-clip: text;
     color: transparent;
     position: relative;
@@ -419,7 +419,7 @@ section {
     transform: translateX(-50%);
     width: 150px;
     height: 6px;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     border-radius: 3px;
 }
 
@@ -473,7 +473,7 @@ section {
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
-    background: linear-gradient(to bottom, transparent, #10B981, transparent);
+    background: linear-gradient(to bottom, transparent, #0EA5E9, transparent);
 }
 
 .timeline-item {
@@ -497,7 +497,7 @@ section {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #10B981;
+    background: #0EA5E9;
     border: 2px solid #fff;
     box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2);
 }
@@ -552,7 +552,7 @@ section {
 
 a.link-button[target="_blank"] {
     color: white !important;
-    background-color: #10B981 !important;
+    background-color: #0EA5E9 !important;
     border-radius: 25px !important;
     padding: 8px 10px !important;
     margin: 2px !important;
@@ -580,7 +580,7 @@ a.link-button[target="_blank"]:hover {
 }
 
 .link-button-large:hover {
-    background-color: #047857 !important;  /* Even darker on hover */
+    background-color: #0369A1 !important;  /* Even darker on hover */
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 12px rgba(5, 150, 105, 0.3) !important;
 }
@@ -595,7 +595,7 @@ a.link-button[target="_blank"]:hover {
     display: inline-flex;
     align-items: center;
     padding: 0.5rem 1.5rem;
-    background-color: #10b981;
+    background-color: #0ea5e9;
     color: white;
     border-radius: 9999px;
     transition: all 0.3s ease;
@@ -628,7 +628,7 @@ a.link-button[target="_blank"]:hover {
     text-align: center;
     margin-bottom: 4rem;
     position: relative;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -641,7 +641,7 @@ a.link-button[target="_blank"]:hover {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #059669, #0EA5E9);
     border-radius: 2px;
 }
 
@@ -758,7 +758,7 @@ body::before {
     --sky-50: #f0fcfc;
     --sky-100: #dcfce7;
     --sky-200: #bbf7d0;
-    --sky-500: #10b981;
+    --sky-500: #0ea5e9;
     --sky-600: #059669;
 }
 
@@ -931,7 +931,7 @@ body {
 #home .profile-border {
     width: 110px !important;
     height: 110px !important;
-    border: 4px solid #10b981 !important;
+    border: 4px solid #0ea5e9 !important;
     border-radius: 50% !important;
     overflow: hidden !important;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
@@ -950,7 +950,7 @@ body {
     padding: 0.4rem 1rem !important;
     font-size: 0.85rem !important;
     border-radius: 9999px !important;
-    background: linear-gradient(to right, #059669, #10B981) !important;
+    background: linear-gradient(to right, #059669, #0EA5E9) !important;
     color: white !important;
     transition: all 0.2s ease-in-out !important;
 }
@@ -1059,7 +1059,7 @@ section h2.section-heading {
     font-weight: 700 !important;
     text-align: center !important;
     margin-bottom: 2rem !important;
-    background: linear-gradient(to right, #059669, #10B981) !important;
+    background: linear-gradient(to right, #059669, #0EA5E9) !important;
     -webkit-background-clip: text !important;
     color: transparent !important;
     line-height: 1.2 !important;
