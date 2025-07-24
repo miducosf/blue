@@ -139,7 +139,7 @@ section h2 {
 
 /* Name Gradient */
 .name-gradient {
-    background: linear-gradient(to right, #059669, #10B981);
+    background: linear-gradient(to right, #056198, #64ABEE);
     -webkit-background-clip: text;
     color: transparent;
 }
